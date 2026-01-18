@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOCUMENT</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: arial, sans-serif;
+            line-height: 1.7;
+            color: #333;
+        }
+
+        nav {
+            background: #34495e;
+            padding: 2rem;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 1.5rem;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+
+        nav a:hover {
+            color: #3498db;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        section {
+            margin: 3rem 0;
+            padding: 3rem;
+            background: #ecf0f1;
+            border-radius: 8px;
+        }
+
+        section h2 {
+            color: #2c3e50;
+            margin-bottom: 3rem;
+            margin-top: 3rem;
+            border-bottom: 4px solid #8cb3cd;
+            padding-bottom: 0.6rem;
+        }
+
+        .projects {
+            background: white;
+            padding: 1.5em;
+            margin: 1rem;
+            border-left: 4px solid #3498db;
+            /* border-radius: 2px; */
+        }
+
+        .projects h3 {
+            color: #2c3e50;
+        }
+
+        .projects p {
+            margin-top: 0.8rem;
+            color: #555;
+        }
+
+        footer {
+            background: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 1.5em;
+            margin-top: 4rem;
+        }
+    </style>
+</head>
+
+<body>
+    <center>
+        <header>
+            <h1>ANUP PATWA</h1>
+            <p>Web Developer | Designer | Problem Solver</p>
+        </header>
+
+        <center>
+            <hr>
+            <nav>
+
+                <a href="index1.html">Home </a>
+                <a href="index2.html">About </a>
+                <a href="Project.html2">Projects </a>
+                <a href="index3.html">Contact us </a>
+                <br>
+            </nav>
+            click above to see more Information.
+            <hr>
+        </center>
+        <div class="container">
+            <section id="about">
+                <h2>about me</h2>
+                <p>
+                    Hello! I'm Anup Patwa, a passionate web developer. I love creating beautiful and
+                    functional websites. I specialize in HTML, CSS, and JavaScript to build amazing digital experiences.
+                </p>
+            </section>
+            <section id="projects">
+                <h2>projects</h2>
+
+                <div class="projects">
+                    <h3>porfolio website</h3>
+                    <p>A clean and modern portfolio showcasing my work and skills.</p>
+                </div>
+            </section>
+            <section id="skills">
+                <h2>skills</h2>
+                <p>
+                    <strong>Languages:</strong> HTML, CSS, JavaScript, C, C++, SQL<br>
+                    <strong>Tools:</strong> VS Code, Git, Github<br>
+                    <strong>Specialties:</strong> Responsive Design, Web Development
+
+                </p>
+            </section>
+        </div>
+
+        <p>
+
+
+        <p style="margin-bottom: 200px;">
+            <center>
+                <a href="https://x.com/AnupPatwa814551">X</a> <a
+                    href="https://www.instagram.com/ofx__anupp?igsh=eTRsbHppd2l3eXg1">Instagram</a> <a
+                    href="https://www.facebook.com/anup.patwa.7">facebook</a> <a
+                    href="https://github.com/anuppatwa1090-max">Github</a>
+            </center>
+        </p>
+        <p>Follow Us </p>
+
+        <footer>
+            <p>©2026 Anup Patwa . All Rights Reserved</p>
+        </footer>
+        </p>
+
+</body>
+
+</html>
